@@ -17,7 +17,7 @@
 </Query>
 
 #load ".\ViewModels\*.cs"
-using Chinook2018;
+using Chinook;
 void Main()
 {
 	try

@@ -38,11 +38,11 @@ void Main()
 		int trackId = 793;
 		//	showing that both the playlist and track does not exist
 		Console.WriteLine("Before adding Track");
-		PlaylistTrackServices_FetchPlaylist(userName, playlistName);
+		PlaylistTrackServices_FetchPlaylist(userName, playlistName).Dump();
 		PlaylistTrackServices_AddTrack(userName, playlistName, trackId);
 		//	showing that both the playist and tracks now exist
 		Console.WriteLine("After adding Track");
-		PlaylistTrackServices_FetchPlaylist(userName, playlistName);
+		PlaylistTrackServices_FetchPlaylist(userName, playlistName).Dump();
 	}
 
 	#region  catch all exceptions
@@ -152,7 +152,7 @@ public void PlaylistTrackServices_AddTrack(string userName, string playlistName,
 	// does not exist
 	if (playlist == null)
 	{
-		playlist = new Playlist()
+		playlist = new Playlists()
 		{
 			Name = playlistName,
 			UserName = userName
@@ -176,7 +176,7 @@ public void PlaylistTrackServices_AddTrack(string userName, string playlistName,
 							.Select(x => x.Name)
 							.FirstOrDefault();
 			// rule violation
-			errorList.Add(new Exceptoin($"Selected track ({songName}) is already on the playlist"));
+			errorList.Add(new Exception($"Selected track ({songName}) is already on the playlist"));
 		}
 		else
 		{

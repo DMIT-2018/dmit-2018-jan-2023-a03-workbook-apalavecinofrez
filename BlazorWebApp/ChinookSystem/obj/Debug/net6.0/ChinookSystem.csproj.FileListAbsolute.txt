@@ -1,0 +1,12 @@
+C:\Users\palav\OneDrive\Documents\GitHub\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\ChinookSystem\bin\Debug\net6.0\ChinookSystem.deps.json
+C:\Users\palav\OneDrive\Documents\GitHub\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\ChinookSystem\bin\Debug\net6.0\ChinookSystem.dll
+C:\Users\palav\OneDrive\Documents\GitHub\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\ChinookSystem\bin\Debug\net6.0\ChinookSystem.pdb
+C:\Users\palav\OneDrive\Documents\GitHub\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\ChinookSystem\obj\Debug\net6.0\ChinookSystem.csproj.AssemblyReference.cache
+C:\Users\palav\OneDrive\Documents\GitHub\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\ChinookSystem\obj\Debug\net6.0\ChinookSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\palav\OneDrive\Documents\GitHub\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\ChinookSystem\obj\Debug\net6.0\ChinookSystem.AssemblyInfoInputs.cache
+C:\Users\palav\OneDrive\Documents\GitHub\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\ChinookSystem\obj\Debug\net6.0\ChinookSystem.AssemblyInfo.cs
+C:\Users\palav\OneDrive\Documents\GitHub\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\ChinookSystem\obj\Debug\net6.0\ChinookSystem.csproj.CoreCompileInputs.cache
+C:\Users\palav\OneDrive\Documents\GitHub\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\ChinookSystem\obj\Debug\net6.0\ChinookSystem.dll
+C:\Users\palav\OneDrive\Documents\GitHub\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\ChinookSystem\obj\Debug\net6.0\refint\ChinookSystem.dll
+C:\Users\palav\OneDrive\Documents\GitHub\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\ChinookSystem\obj\Debug\net6.0\ChinookSystem.pdb
+C:\Users\palav\OneDrive\Documents\GitHub\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\ChinookSystem\obj\Debug\net6.0\ref\ChinookSystem.dll

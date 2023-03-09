@@ -1,6 +1,6 @@
 ﻿namespace BlazorWebApp.Pages
 {
-    public class Query
+    public partial class Query
     {
     }
 }

@@ -76,3 +76,5 @@ C:\Users\palav\OneDrive\Documents\GitHub\dmit-2018-jan-2023-a03-workbook-apalave
 C:\Users\palav\OneDrive\Documents\GitHub\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\BlazorWebApp\obj\Debug\net6.0\BlazorWebApp.genruntimeconfig.cache
 C:\Users\palav\OneDrive\Documents\GitHub\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\BlazorWebApp\obj\Debug\net6.0\ref\BlazorWebApp.dll
 C:\Users\palav\OneDrive\Documents\GitHub\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\BlazorWebApp\bin\Debug\net6.0\MatBlazor.dll
+C:\Users\palav\OneDrive\Documents\GitHub\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\BlazorWebApp\bin\Debug\net6.0\ChinookSystem.dll
+C:\Users\palav\OneDrive\Documents\GitHub\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\BlazorWebApp\bin\Debug\net6.0\ChinookSystem.pdb

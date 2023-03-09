@@ -22,7 +22,13 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddMatBlazor();
-
+//  Placeholder for db context
+builder.Services.AddDbContext<ApplicationDbContext>(a => 
+    {
+        //will add our connection string to chinook
+        a.UseSqlServer();
+    }
+);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

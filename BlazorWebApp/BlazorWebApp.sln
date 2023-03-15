@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWebApp", "BlazorWebAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChinookSystem", "ChinookSystem\ChinookSystem.csproj", "{4A0150DB-7AE8-48DF-BC09-83BEACE5DCEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistManagementSystem", "PlaylistManagementSystem\PlaylistManagementSystem.csproj", "{95F1CB56-523F-4484-A041-4C3C3584DFCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4A0150DB-7AE8-48DF-BC09-83BEACE5DCEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A0150DB-7AE8-48DF-BC09-83BEACE5DCEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A0150DB-7AE8-48DF-BC09-83BEACE5DCEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95F1CB56-523F-4484-A041-4C3C3584DFCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F1CB56-523F-4484-A041-4C3C3584DFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F1CB56-523F-4484-A041-4C3C3584DFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F1CB56-523F-4484-A041-4C3C3584DFCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

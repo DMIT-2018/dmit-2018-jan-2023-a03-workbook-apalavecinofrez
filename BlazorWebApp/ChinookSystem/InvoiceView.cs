@@ -17,6 +17,6 @@ namespace ChinookSystem
         [Required]
         [StringLength(6, ErrorMessage = "Name is too long")]
         public string SalesPerson { get; set; }
-        [Required] public string PaymentType { get; set; }
+        public string PaymentType { get; set; } = "Unknown";
     }
 }

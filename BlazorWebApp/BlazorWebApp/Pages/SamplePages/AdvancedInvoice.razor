@@ -1,0 +1,79 @@
+﻿@page "/SamplePages/AdvancedInvoice"
+<PageTitle>Advanced Invoice</PageTitle>
+<h3>Advanced Invoice #@invoice.InvoiceNo</h3>
+
+@{
+    //  --- OnSubmit ---
+    //  the OnSubmit event fires when the user clicks on the Submit button on the form.
+    //  it's handlers takes as an argument the EditContext argument and is used to trigger
+    //      some custom logic based on the validity of the form
+    //  NOTE: when there is a handler for the OnSubmit event, the onValidSubmit and
+    //          onInvalidSubmit event will not be fired.
+
+    //  --- OnValidSubmit ---
+    //  the OnValidSubmit event fires when the form is submitted and there are no validation
+    //      errors.
+    //  It is mapped to OnValidSubmit event of the Microsoft EditForm. It's handlers takes
+    //      the EditContext as an argument.
+
+    //  --- OnInvalidSubmit ---
+    //  the OnInvalidSubmit event fires when there are validation errors in the form upon
+    //      it's submission
+    //  It is mapped to OnInvalidSubmit event of the Microsoft EditForm. It's handlers takes
+    //      the EditContext as an argument.
+    //  NOTE: we can use none of these events OR one of these events. The only situation where
+    //          we can use two events is when we set OnValidSubmit and OnInvalidSubmit together.
+    //          Neither of those two events can be consumed if OnSubmit is set.
+}
+<EditForm EditContext="editContext" OnValidSubmit="@HandleValidSubmit"
+          OnInvalidSubmit="@HandleInvalidSubmit">
+    @*
+    The DataAnnotationsValidator is the standard validator type in Blazor.
+    adding this component within an EditForm component will enable form
+    validation
+    *@
+    <DataAnnotationsValidator />
+    @*
+    The ValidationSummary component can simply be dropped into an EditForm in our mark-up
+    *@
+    @*<ValidationSummary />*@
+    <div>
+        <p>
+            <label>Invoice Date</label>
+            <label>@invoice.InvoiceDate.ToShortDateString()</label>
+        </p>
+    </div>
+    <div>
+        <p>
+            <label>Sub Total</label>
+            <label>@invoice.SubTotal</label>
+        </p>
+        <p>
+            <label>Tax</label>
+            <label>@invoice.Tax</label>
+        </p>
+    </div>
+    <div>
+        <p>
+            <label>Sales Person</label>
+            <InputText id="salesPerson" @bind-Value="invoice.SalesPerson" />
+            <ValidationMessage For="() => invoice.SalesPerson" />
+        </p>
+        <p>
+            <label>Payment Type</label>
+            <InputSelect @bind-Value="invoice.PaymentType" @onclick="() => OnPaymentTypeClick()">
+                @*iterate the enum PaymentTypes and get each value within it*@
+                @foreach(var paymentType in Enum.GetValues(typeof(PaymentTypes)))
+                {
+                    <option value="@paymentType">@paymentType</option>
+                }
+            </InputSelect>
+            <ValidationMessage For="() => invoice.PaymentType" />
+        </p>
+    </div>
+    <MatButton type="submit" Raised="true" Disabled="@(!context.IsModified() || !context.Validate())">Click Me</MatButton>
+</EditForm>
+<MatButton Raised="true" @onclick="@(() => NavigationManager.NavigateTo($"/"))">Index Page</MatButton>
+<div>
+    <h4>@feedBack</h4>
+</div>

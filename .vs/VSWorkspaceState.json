@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\BlazorWebApp",
+    "\\BlazorWebApp\\BlazorWebApp",
+    "\\BlazorWebApp\\BlazorWebApp\\Pages",
+    "\\BlazorWebApp\\BlazorWebApp\\Pages\\SamplePages"
   ],
-  "SelectedNode": "\\BlazorWebApp.sln",
+  "SelectedNode": "\\BlazorWebApp\\BlazorWebApp.sln",
   "PreviewInSolutionExplorer": false
 }

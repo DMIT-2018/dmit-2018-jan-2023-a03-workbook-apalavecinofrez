@@ -1,0 +1,12 @@
+C:\Users\apalavecinofrez1\Source\Repos\DMIT-2018\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\PlaylistManagementSystem\bin\Debug\net6.0\PlaylistManagementSystem.deps.json
+C:\Users\apalavecinofrez1\Source\Repos\DMIT-2018\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\PlaylistManagementSystem\bin\Debug\net6.0\PlaylistManagementSystem.dll
+C:\Users\apalavecinofrez1\Source\Repos\DMIT-2018\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\PlaylistManagementSystem\bin\Debug\net6.0\PlaylistManagementSystem.pdb
+C:\Users\apalavecinofrez1\Source\Repos\DMIT-2018\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\PlaylistManagementSystem\obj\Debug\net6.0\PlaylistManagementSystem.csproj.AssemblyReference.cache
+C:\Users\apalavecinofrez1\Source\Repos\DMIT-2018\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\PlaylistManagementSystem\obj\Debug\net6.0\PlaylistManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\apalavecinofrez1\Source\Repos\DMIT-2018\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\PlaylistManagementSystem\obj\Debug\net6.0\PlaylistManagementSystem.AssemblyInfoInputs.cache
+C:\Users\apalavecinofrez1\Source\Repos\DMIT-2018\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\PlaylistManagementSystem\obj\Debug\net6.0\PlaylistManagementSystem.AssemblyInfo.cs
+C:\Users\apalavecinofrez1\Source\Repos\DMIT-2018\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\PlaylistManagementSystem\obj\Debug\net6.0\PlaylistManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\apalavecinofrez1\Source\Repos\DMIT-2018\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\PlaylistManagementSystem\obj\Debug\net6.0\PlaylistManagementSystem.dll
+C:\Users\apalavecinofrez1\Source\Repos\DMIT-2018\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\PlaylistManagementSystem\obj\Debug\net6.0\refint\PlaylistManagementSystem.dll
+C:\Users\apalavecinofrez1\Source\Repos\DMIT-2018\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\PlaylistManagementSystem\obj\Debug\net6.0\PlaylistManagementSystem.pdb
+C:\Users\apalavecinofrez1\Source\Repos\DMIT-2018\dmit-2018-jan-2023-a03-workbook-apalavecinofrez\BlazorWebApp\PlaylistManagementSystem\obj\Debug\net6.0\ref\PlaylistManagementSystem.dll
